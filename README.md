@@ -127,3 +127,26 @@ Example: Amazon's "Customers who bought this also bought" feature.
 3. **Social Media:** Facebook recommending friends or pages based on your interactions.
 4. **Food Delivery:** Apps like Zomato suggesting restaurants based on your previous orders.
 5. **Education:** Platforms like Coursera recommending courses based on completed courses or search behavior.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+| Method/Algorithm | Explicit Feedback | Implicit Feedback |
+| ---------------- | ----------------- | ----------------- |
+| User-Based Collaborative Filtering | Ratings | Browsing history, purchase data |
+| Item-Based Collaborative Filtering | Ratings | Co-occurrence data (e.g., items viewed or bought together) |
+| Matrix Factorization (SVD, ALS) | Ratings | Implicit ALS variants using interaction confidence |
+| Content-Based Filtering | Ratings, explicitly defined preferences | Browsing behavior, clicks |
+| Knowledge-Based Systems | Explicit preferences (e.g., constraints, filters) | Not commonly used for implicit feedback |
+| Deep Learning (e.g., Autoencoders, NCF) | Can work with ratings, reviews | Clicks, views, time spent, purchase data |
+| Hybrid Systems | Combines both (e.g., ratings + interaction data) | Combines both |
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Key Insights:
+- **Explicit Feedback** works best with algorithms like matrix factorization and user/item-based collaborative filtering, as they rely on user input to gauge preferences.
+- **Implicit Feedback** is more common in real-world applications because explicit feedback is often sparse. Algorithms like ALS (for implicit data) and deep learning models are tailored for such scenarios.
+
+
+**Example Applications:**
+   - **Explicit Feedback:** Netflix ratings for movies or Goodreads star ratings for books.
+   - **Implicit Feedback:** YouTube's "watch next" feature based on viewing history or Spotify's music suggestions from play history.
