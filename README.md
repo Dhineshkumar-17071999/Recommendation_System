@@ -13,7 +13,7 @@ We therefore need to collect user feedback, so that we can have a ground truth f
 
 - **Implicit feedback:** Implicit feedback, on the other hand, assume that user-item interactions are an indication of preferences. Examples are: purchases/browsing history of a user, list of songs played by a user, etc. This feedback is extremely abundant, but at the same time it is less detailed and more noisy (e.g. someone may buy a product as a present for someone else). However, this noise becomes negligible when compared to the sheer size of available data of this kind, and most modern Recommender Systems tend to rely on implicit feedback.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Methods of Recommendation Systems
 1. Content-Based Filtering
 
@@ -36,7 +36,7 @@ We therefore need to collect user feedback, so that we can have a ground truth f
      
     - **Machine Learning Models (e.g., Logistic Regression, Decision Trees):** Predict user preferences based on item features and previous interactions.
 
-    
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Collaborative Filtering
 
@@ -63,14 +63,15 @@ Example: Amazon's "Customers who bought this also bought" feature.
     - **Advanced Techniques**
       - **Collaborative Deep Learning:** Combines collaborative filtering with deep learning models like neural networks for better accuracy.
         - **Example:** YouTube recommendations.
-       
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
         
 3. Hybrid Recommendation Systems
 
 
 
 
-  Combines multiple methods, such as content-based and collaborative filtering, to overcome the limitations of each approach and improve accuracy.
+     Combines multiple methods, such as content-based and collaborative filtering, to overcome the limitations of each approach and improve accuracy.
   - **How it works:** Netflix uses hybrid systems to recommend shows and movies, combining viewing history, user ratings, and similarities between users and content.
 
   - **Algorithms from multiple approaches**
@@ -81,6 +82,7 @@ Example: Amazon's "Customers who bought this also bought" feature.
     - **Switching Hybrid:** Chooses an algorithm dynamically based on the situation.
       - **Example:** Use collaborative filtering when user data is available; otherwise, switch to content-based filtering.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. Knowledge-Based Recommendation Systems
 
@@ -88,7 +90,7 @@ Example: Amazon's "Customers who bought this also bought" feature.
 
 
 
-  These systems recommend items based on specific user requirements, preferences, or constraints without relying on historical data.
+     These systems recommend items based on specific user requirements, preferences, or constraints without relying on historical data.
   - **Real-life example:** A travel agency platform recommending vacation packages based on budget, preferred destination type (beach/mountain), and activities.
   - **Algorithms:**
     - **Constraint-Based Filtering:** Recommends items by satisfying user-defined rules or preferences.
@@ -96,13 +98,15 @@ Example: Amazon's "Customers who bought this also bought" feature.
     - **Case-Based Reasoning (CBR):** Finds solutions to new problems (recommendations) by adapting solutions from similar past cases.
     - **Bayesian Networks:** Models dependencies between user preferences and item features to recommend items.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 5. Deep Learning-Based Recommendation Systems
 
 
 
 
 
-  Uses advanced techniques like neural networks to capture complex patterns in user behavior and item features.
+     Uses advanced techniques like neural networks to capture complex patterns in user behavior and item features.
   - **Real-life example:** YouTube suggesting videos based on your watch history, engagement patterns, and deep learning models.
   - **Algorithms**
     - **Autoencoders:** Neural networks used for dimensionality reduction and capturing latent features in sparse data.
@@ -115,6 +119,7 @@ Example: Amazon's "Customers who bought this also bought" feature.
     - **Transformers:** Models user behavior sequences for accurate next-item predictions.
       - **Example:** YouTube’s "watch next" feature.
      
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Applications in Real Life
 1. **E-commerce:** Amazon recommending products based on browsing history.
