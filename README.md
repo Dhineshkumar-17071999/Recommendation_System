@@ -16,6 +16,8 @@ We therefore need to collect user feedback, so that we can have a ground truth f
 
 ### Methods of Recommendation Systems
 1. Content-Based Filtering
+
+
    This approach uses the characteristics of items and user preferences to make recommendations. It relies on matching item attributes with the preferences or past behavior of a user.
    - **How it works:** If a user likes a movie tagged as "action" and "sci-fi," the system recommends other movies with similar tags.
    - **Real-life example:**
@@ -33,9 +35,14 @@ We therefore need to collect user feedback, so that we can have a ground truth f
       - **Example:** Recommending articles similar to one recently read.
      
     - **Machine Learning Models (e.g., Logistic Regression, Decision Trees):** Predict user preferences based on item features and previous interactions.
+
     
 
 2. Collaborative Filtering
+
+
+
+
   This method relies on user interaction data, such as ratings, purchases, or likes, to recommend items. It identifies patterns and similarities between users or items. Collaborative filtering can be divided into two types:
   - **User-based Collaborative Filtering:** Recommends items based on the preferences of similar users.
 Example: If User A and User B have similar tastes, items liked by User B will be recommended to User A.
@@ -59,6 +66,10 @@ Example: Amazon's "Customers who bought this also bought" feature.
        
         
 3. Hybrid Recommendation Systems
+
+
+
+
   Combines multiple methods, such as content-based and collaborative filtering, to overcome the limitations of each approach and improve accuracy.
   - **How it works:** Netflix uses hybrid systems to recommend shows and movies, combining viewing history, user ratings, and similarities between users and content.
 
@@ -72,6 +83,11 @@ Example: Amazon's "Customers who bought this also bought" feature.
 
 
 4. Knowledge-Based Recommendation Systems
+
+
+
+
+
   These systems recommend items based on specific user requirements, preferences, or constraints without relying on historical data.
   - **Real-life example:** A travel agency platform recommending vacation packages based on budget, preferred destination type (beach/mountain), and activities.
   - **Algorithms:**
@@ -81,6 +97,11 @@ Example: Amazon's "Customers who bought this also bought" feature.
     - **Bayesian Networks:** Models dependencies between user preferences and item features to recommend items.
 
 5. Deep Learning-Based Recommendation Systems
+
+
+
+
+
   Uses advanced techniques like neural networks to capture complex patterns in user behavior and item features.
   - **Real-life example:** YouTube suggesting videos based on your watch history, engagement patterns, and deep learning models.
   - **Algorithms**
